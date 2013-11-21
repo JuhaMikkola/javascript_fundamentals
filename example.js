@@ -17,10 +17,29 @@
 
 // document.write(fahrenheit + "fahrenheit is " + celsius + " celsius!");
 
-// The Geometrizer Function
+// // The Geometrizer Function
 
+// function calcCircumference(radius) {
 
+//   var circ = 2 * radius * 3.142;
+//   var circ2 = Math.round(circ);
+//   var circumference = "The circumference is " + circ2 + ".    ";
+//   return circumference;
 
+// }  
+
+// document.write(calcCircumference(12));
+
+// function calcArea(radius) {
+
+//   var ar = 3.142 * (radius * radius);
+//   var ar2 = Math.round(ar);
+//   var area = "The area is " + ar2 + ".";
+//   return area;
+
+// }
+
+// document.write(calcArea(12));
 
 // // The Geometrizer
 
