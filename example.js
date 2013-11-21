@@ -1,3 +1,166 @@
+// Exercises: if/else statements
+
+// EXERCISE: What number's bigger?
+
+// Write a function named greaterNum that:
+// takes 2 arguments, both numbers.
+// returns whichever number is the greater (higher) number.
+// Call that function 2 times with different number pairs, and log the output to make sure it works (e.g. "The greater number of 5 and 10 is 10.").
+
+// ANSWER
+// function greaterNum(no1, no2) {
+
+//   var answer;
+
+//   if (no1 > no2) {
+//     answer = no1 
+//   } else {
+//     answer = no2
+//   };
+
+//   return answer;
+
+// };
+
+// document.write(greaterNum(12,1))
+
+
+// EXERCISE: The World Translator
+
+// Write a function named helloWorld that:
+// takes 1 argument, a language code (e.g. "es", "de", "en")
+// returns "Hello, World" for the given language, for atleast 3 languages. It should default to returning English.
+// Call that function for each of the supported languages and log the result to make sure it works.
+
+// function helloWorld(language) {
+
+//   var phrase
+
+//   if ( language == "es" ) {
+//     var phrase = "Hola Mundo!"
+//   }
+
+//   else if ( language == "de" ) {
+//     var phrase = "Hallo Welt!"
+//   }
+
+//   else {
+//     var phrase = "Hello World!"
+//   }
+
+//   return phrase
+
+// }
+
+// document.write(helloWorld("es"))
+
+// document.write(helloWorld("de"))
+
+// document.write(helloWorld("bb"))
+
+
+// EXERCISE: The Grade Assigner
+
+// Write a function named assignGrade that:
+// takes 1 argument, a number score.
+// returns a grade for the score, either "A", "B", "C", "D", or "F".
+// Call that function for a few different scores and log the result to make sure it works.
+
+// function assignGrade(score) {
+
+//   var letterGrade
+
+//   if ( score >= 90 ) {
+//       letterGrade = "A"
+//   } else if ( score >= 80 ) {
+//       letterGrade = "B"
+//   }else if ( score >= 70 ) {
+//       letterGrade = "C"
+//   }else if ( score >= 60 ) {
+//       letterGrade = "D"
+//   } else {
+//       letterGrade = "F"
+//   }
+
+//   return letterGrade;
+
+// }
+
+// document.write(assignGrade(70))
+
+
+// EXERCISE: The Pluralizer
+
+// Write a function named pluralize that:
+// takes 2 arguments, a noun and a number.
+// returns the number and pluralized form, like "5 cats" or "1 dog".
+// Call that function for a few different scores and log the result to make sure it works.
+// Bonus: Make it handle a few collective nouns like "sheep" and "geese".
+
+// function pluralize(noun, number) {
+
+//   var theStatement;
+
+//   if ( noun = "sheep" ) {
+
+//       theStatement = number + " " + noun + "!"
+
+//   }
+
+//   else {
+
+//   if ( number > 1 ) {
+
+//     theStatement = number + " " + noun + "s!"
+
+//   }
+
+//   else {
+
+//     theStatement = number + " " + noun + "!"
+
+//   }
+
+//   }
+
+//   return theStatement;
+
+// };
+
+// document.write(pluralize("cat", 5))
+
+// document.write(pluralize("dog", 1))
+
+// document.write(pluralize("sheep", 9))
+
+
+// ITERATION
+// var rainbowColors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet'];
+// for (var i = 0; i < rainbowColors.length; i++) {
+//   console.log(rainbowColors[i]);
+// }
+
+// FOR LOOP
+// var count;
+// document.write("Starting Loop" + "<br />");
+// for(count = 0; count < 10; count++){
+//   document.write("Current Count : " + count );
+//   document.write("<br />");
+// }
+// document.write("Loop stopped!");
+
+// BREAK STATEMENT
+// var x = 1;
+// document.write("Entering the loop<br /> ");
+// while (x < 20) {
+//   if (x == 5){ 
+//      break;  // breaks out of loop completely
+//   }
+//   x = x + 1;
+//   document.write( x + "<br />");
+// }
+// document.write("Exiting the loop!<br /> ");
+
 
 // The temperature function 
 
