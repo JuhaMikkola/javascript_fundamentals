@@ -1,4 +1,20 @@
 
+// The temperature function 
+
+// var celsius;
+
+// function celciusToFahrenheit(celsius) {
+
+//   var fahrenheit = celsius * (9/5) + 32;
+//   var fahrenheit2 = Math.round(fahrenheit);
+//   var fahrenheit3 = celsius + " C is " + fahrenheit2 + " F.";
+//   return fahrenheit3;
+
+// }
+
+// document.write(celciusToFahrenheit(27))
+
+
 // EXERCISE: The Temperature Converter
 
 // It's hot out! Let's make a converter based on the steps here.
