@@ -1,13 +1,40 @@
+
+
+// LOGO
+// Element.tagname(hplogo) 
+// TypeError: Object function Element() { [native code] } has no method 'tagname'
 // document.getElementById('hplogo')
+// <img alt=​"Google" height=​"95" src=​"/​images/​srpr/​logo11w.png" width=​"269" id=​"hplogo" onload=​"window.lol&&lol()​" style=​"padding-top:​112px">​
+// var googleLogo = document.getElementById('hplogo')
+// undefined
+// googleLogo
+// <img alt=​"Google" height=​"95" src=​"/​images/​srpr/​logo11w.png" width=​"269" id=​"hplogo" onload=​"window.lol&&lol()​" style=​"padding-top:​112px">​
+// googleLogo.src
+// "https://www.google.com/images/srpr/logo11w.png"
+// googleLogo.src = http://www.floorballpro.com/images/news/floorballpro.jpg
+// SyntaxError: Unexpected token :
+// googleLogo.src = "http://www.floorballpro.com/images/news/floorballpro.jpg"
+// The page at 'https://www.google.com/' was loaded over HTTPS, but displayed insecure content from 'http://www.floorballpro.com/images/news/floorballpro.jpg': this content should also be loaded over HTTPS.
+//  VM1255:2
+// "http://www.floorballpro.com/images/news/floorballpro.jpg"
 
-// var logo = document.getElementById('hplogo')
-
-// logo
-
-// logo.src
-
-// logo.src = "http://www.digitaltrends.com/wp-content/uploads/2013/02/yahoo-voices-hacked-450-000-passwords-posted-online-7169a7e88d.jpg"
-
+// BUTTON
+// var searchButton = document.getElementById('gbqfsa')
+// undefined
+// searchButton
+// <span id=​"gbqfsa">​Google Search​</span>​
+// searchButton.text = "LOVE Floorball"
+// "LOVE Floorball"
+// searchButton
+// <span id=​"gbqfsa">​Google Search​</span>​
+// searchButton.attributes
+// NamedNodeMap {0: id, length: 1, getNamedItem: function, removeNamedItem: function, item: function, getNamedItemNS: function…}
+// searchButton.text
+// "LOVE Floorball"
+// searchButton.textContent
+// "Google Search"
+// searchButton.textContent = "We Love Floorball"
+// "We Love Floorball"
 
 // Exercises: Objects
 
@@ -88,29 +115,29 @@
 // Create an object to store the following information about your favorite movie: title (a string), duration (a number), and stars (an array of strings).
 // Create a function to print out the movie information like so: "Puff the Magic Dragon lasts for 30 minutes. Stars: Puff, Jackie, Living Sneezes."
 
-var favMovies = [
+// var favMovies = [
 
-      { title: "Blood In Blood Out",
-        duration: 180,
-        stars: ["Damian Chapa", "Jesse Borrego", "Benjamin Bratt"]
-      },
+//       { title: "Blood In Blood Out",
+//         duration: 180,
+//         stars: ["Damian Chapa", "Jesse Borrego", "Benjamin Bratt"]
+//       },
 
-      { title: "CB4",
-        duration: 89,
-        stars: ["Chris Rock", "Allen Payne", "Deezer D"]
-      }
+//       { title: "CB4",
+//         duration: 89,
+//         stars: ["Chris Rock", "Allen Payne", "Deezer D"]
+//       }
 
-];
+// ];
 
-function printIt(movie) {
+// function printIt(movie) {
 
-    for (var r = 0; r < movie.length; r++) {
+//     for (var r = 0; r < movie.length; r++) {
 
-      document.write(movie[r].title + " lasts for " + movie[r].duration + " minutes. Stars: " + movie[r].stars);
-    }
-}
+//       document.write(movie[r].title + " lasts for " + movie[r].duration + " minutes. Stars: " + movie[r].stars);
+//     }
+// }
 
-printIt(favMovies);
+// printIt(favMovies);
 
 // Exercises: Arrays
 
