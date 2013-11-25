@@ -15,16 +15,31 @@
   
 <script> 
 
-document.getElementsByTagName("body").style.fontFamily="Arial, sans-serif";
+var bodystyle = document.getElementsByTagName("body")
 
-var nickname = document.getElementbyID('nickname');
-nickname = "JayEm";
+bodystyle[0].style.fontFamily = '"Arial", "sans-serif"';
 
-var favorites = document.getElementbyID('favorites');
-favorites = "Kenny Powers";
+var nickname = document.getElementById('nickname');
+nickname.innerHTML = "JayEm";
 
-var hometown = document.getElementbyID('hometown')
-hometown = "Helsinki"
+var favorites = document.getElementById('favorites');
+favorites.innerHTML = "Kenny Powers";
+
+var hometown = document.getElementById('hometown')
+hometown.innerHTML = "Helsinki";
+
+var liArray = document.getElementsByTagName("li");
+
+for (var f=0; f < liArray.length; f++) {
+
+  liArray[f].className = "listitem";
+  liArray[f].style.color = "red";
+
+};
+
+var myImg=document.createElement("img");
+myImg.setAttribute('src', 'http://upload.wikimedia.org/wikipedia/en/thumb/9/9b/CanadaCupPresentation09.PNG/300px-CanadaCupPresentation09.PNG');
+document.body.appendChild(myImg);
 
 </script>
 
